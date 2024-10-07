@@ -1,22 +1,19 @@
-import { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
-import video from '../assets/video/video.mp4';
 import hero from '../assets/images/hero1.png';
+import { useEffect } from "react";
 
 const HomeSkin = () => {
-    const [videoLoaded, setVideoLoaded] = useState(false);
 
-    useEffect(() => {
-        const video = document.getElementById('hero-video');
-        video.addEventListener('loadeddata', () => {
-        setVideoLoaded(true);
-        });
-    }, []);
+  useEffect(() => {
+    const iframe = document.getElementById("youtube-video");
+    const autoplaySrc = iframe.src + "&autoplay=1&mute=1&modestbranding=1&controls=0";
+    iframe.src = autoplaySrc;
+  }, []);
 
   return (
     <>
-    <div className="h-screen relative z-0">
-      <nav className="bg-transparent z-50">
+    <div className="h-screen relative -z-10">
+      <nav className="bg-transparent">
         <div className="max-w-screen-default flex flex-wrap items-center justify-between mx-auto p-4">
           <a
             href="https://flowbite.com/"
@@ -104,30 +101,22 @@ const HomeSkin = () => {
       </nav>
 
       <section className="h-full w-full absolute top-0 -z-10">
-          <div className="w-full h-full">
-            <video
-              id="hero-video"
-              className="w-full h-full object-cover"
-              autoPlay={videoLoaded}
-              loop
-              muted
-            >
-              <source src={video} type="video/mp4" />
-            </video>
-          </div>
+        <div className="w-full h-screen -mt-14 z-40">
+          <iframe id="youtube-video" className="w-full h-full" src="https://www.youtube.com/embed/ilFg9XpDX8c?autoplay=1&loop=1&modestbranding=1&controls=0&showinfo=0&autohide=1&playlist=ilFg9XpDX8c" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
 
-          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
+          <div className="-mt-14 absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
 
-          <div className="absolute top-44 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center flex flex-col justify-center">
+          <div className=" absolute top-44 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center flex flex-col justify-center">
             <h1 className="text-4xl font-extrabold">TARIAN OTENTIK JEMBER</h1>
           </div>
 
-          <div className="flex justify-evenly absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full text-center">
+          <div className="flex justify-evenly absolute bottom-14 left-1/2 transform -translate-x-1/2 w-full text-center">
             <img className="w-120" src={hero} alt="" />
             <h2 className="text-3xl font-bold text-white">Tari Lahbako</h2>
           </div>
 
-          <div className="absolute w-full -bottom-5 z-10 flex justify-center">
+          <div className="absolute w-full bottom-9 z-10 flex justify-center">
             <div className="font-medium bg-white flex gap-20 py-2 px-8 rounded-2xl shadow-[0_4px_6px_0px_rgb(0,0,0,0.4)]">
                 <p>Tari Lahbako</p>
                 <p>Tari Semarak Pandhalungan</p>

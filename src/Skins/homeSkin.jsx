@@ -1,12 +1,13 @@
 import { Outlet } from "react-router-dom";
 import hero from '../assets/images/hero1.png';
 import { useEffect } from "react";
+import '../assets/css/style.css';
 
 const HomeSkin = () => {
 
   useEffect(() => {
     const iframe = document.getElementById("youtube-video");
-    const autoplaySrc = iframe.src + "&autoplay=1&mute=1&modestbranding=1&controls=0";
+    const autoplaySrc = iframe.src + "&autoplay=1&mute=1&modestbranding=1&controls=0&loop=1";
     iframe.src = autoplaySrc;
   }, []);
 
@@ -101,8 +102,8 @@ const HomeSkin = () => {
       </nav>
 
       <section className="h-full w-full absolute top-0 -z-10">
-        <div className="w-full h-screen -mt-14 z-40">
-          <iframe id="youtube-video" className="w-full h-full" src="https://www.youtube.com/embed/ilFg9XpDX8c?autoplay=1&loop=1&modestbranding=1&controls=0&showinfo=0&autohide=1&playlist=ilFg9XpDX8c" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div className="w-full h-full -mt-14">
+          <iframe id="youtube-video" className="w-full h-full" src="https://www.youtube.com/embed/ilFg9XpDX8c?autoplay=1&loop=1&modestbranding=1&controls=0&showinfo=0&autohide=1&playlist=ilFg9XpDX8c" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
 
           <div className="-mt-14 absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
@@ -112,7 +113,7 @@ const HomeSkin = () => {
           </div>
 
           <div className="flex justify-evenly absolute bottom-14 left-1/2 transform -translate-x-1/2 w-full text-center">
-            <img className="w-120" src={hero} alt="" />
+            <img className="xl:w-120 w-96" src={hero} alt="" loading="lazy"/>
             <h2 className="text-3xl font-bold text-white">Tari Lahbako</h2>
           </div>
 

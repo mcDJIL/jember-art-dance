@@ -2,7 +2,7 @@ import map from "../assets/images/map.png";
 import sanggar1 from "../assets/images/sanggar1.png";
 import sanggar2 from "../assets/images/sanggar2.png";
 
-import React, { lazy } from "react";
+import { lazy } from "react";
 import '../assets/css/style.css';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -12,14 +12,14 @@ import 'swiper/css/navigation';
 import { Pagination, Navigation } from 'swiper/modules';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLocation, faLocationDot, faStar } from "@fortawesome/free-solid-svg-icons";
+import { faLocationDot, faStar } from "@fortawesome/free-solid-svg-icons";
 
 export const Home = () => {
   return (
     <div className="max-w-screen-default mx-auto">
       {/* Introduce Section */}
 
-      <section className="py-16">
+      <section className="py-16 px-4">
         <div className="text-center">
           <h2 className="font-bold text-2xl">Tari Lahbako</h2>
         </div>
@@ -48,7 +48,7 @@ export const Home = () => {
         </div>
       </section>
 
-      <div className="py-16">
+      <section className="py-16 px-4">
         <div className="flex flex-row gap-10">
           <div className="w-132">
             <h1 className="text-3xl font-bold">
@@ -66,7 +66,7 @@ export const Home = () => {
 
           <Swiper
             slidesPerView={3}
-            spaceBetween={120}
+            spaceBetween={150}
             pagination={{
               clickable: true,
             }}
@@ -80,7 +80,7 @@ export const Home = () => {
                 <img
                   src={sanggar1}
                   alt=""
-                  loading={lazy}
+                  loading={'lazy'}
                   className="w-full h-96 object-cover rounded-xl"
                 />
 
@@ -113,7 +113,7 @@ export const Home = () => {
                 <img
                   src={sanggar2}
                   alt=""
-                  loading={lazy}
+                  loading={'lazy'}
                   className="w-full h-96 object-cover rounded-xl"
                 />
 
@@ -146,7 +146,7 @@ export const Home = () => {
                 <img
                   src={sanggar2}
                   alt=""
-                  loading={lazy}
+                  loading={'lazy'}
                   className="w-full h-96 object-cover rounded-xl"
                 />
 
@@ -178,7 +178,7 @@ export const Home = () => {
                 <img
                   src={sanggar2}
                   alt=""
-                  loading={lazy}
+                  loading={'lazy'}
                   className="w-full h-96 object-cover rounded-xl"
                 />
 
@@ -210,7 +210,7 @@ export const Home = () => {
                 <img
                   src={sanggar2}
                   alt=""
-                  loading={lazy}
+                  loading={'lazy'}
                   className="w-full h-96 object-cover rounded-xl"
                 />
 
@@ -239,7 +239,41 @@ export const Home = () => {
             </SwiperSlide>
           </Swiper>
         </div>
-      </div>
+      </section>
+
+      <section className="py-16 px-4">
+          <div className="text-center">
+            <h2 className="font-bold text-2xl">Tarian hasil Kolaborasi</h2>
+          </div>
+
+          <div className="mx-auto mt-14">
+            <div className="grid grid-cols-5 gap-4">
+              <div className="bg-white shadow-md rounded-lg p-4">
+                <img src="image1.jpg" alt="Image 1" className="w-full h-full object-cover rounded-lg" />
+              </div>
+              <div className="bg-white row-span-2 shadow-md rounded-lg p-4">
+                <img src="image2.jpg" alt="Image 2" className="w-full h-full object-cover rounded-lg" />
+              </div>
+              <div className="bg-white shadow-md rounded-lg p-4">
+                <img src="image3.jpg" alt="Image 3" className="w-full h-full object-cover rounded-lg" />
+              </div>
+              <div className="bg-white col-span-2 shadow-md rounded-lg p-4">
+                <img src="image4.jpg" alt="Image 4" className="w-full h-full object-cover rounded-lg" />
+              </div>
+              <div className="bg-white shadow-md rounded-lg p-4">
+                <img src="image5.jpg" alt="Image 5" className="w-full h-full object-cover rounded-lg" />
+              </div>
+              <div className="bg-white col-span-2 shadow-md rounded-lg p-4">
+                <img src="image6.jpg" alt="Image 6" className="w-full h-full object-cover rounded-lg" />
+              </div>
+              <div className="bg-white shadow-md rounded-lg p-4">
+                <img src="image7.jpg" alt="Image 7" className="w-full h-full object-cover rounded-lg" />
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section className=""></section>
     </div>
   );
 };

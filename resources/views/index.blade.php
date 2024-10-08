@@ -133,4 +133,22 @@
 
         <div class="time"></div>
     </div>
+
+    <div class="py-28 px-4">
+        <div class="content mx-auto">
+            <div class="text-center">
+                <h2 class="text-3xl font-bold">Kabupaten Jember</h2>
+            </div>
+
+            <div class="mt-16 flex flex-wrap">
+                <div class="flex-1">
+                    <img class="w-120" src="{{ asset('assets/img/jember.jpeg') }}" alt="Kantor Bupati Jember">
+                </div>
+
+                <div class="flex-1">
+                    <p class="font-hind text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio harum odit quam odio fuga delectus explicabo deleniti quis. Minus magnam ducimus aut ut officiis animi laboriosam quas voluptate asperiores similique?</p>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection

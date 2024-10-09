@@ -9,11 +9,16 @@ module.exports = {
   theme: {
     extend: {
       width: {
+        '100': '400px',
+        '120': '550px'
+      },
+      maxWidth: {
+        '100': '400px',
         '120': '550px'
       },
       fontFamily: {
         hind: ['"Hind"', 'sans-serif'],
-      }
+      },
     },
   },
   plugins: [

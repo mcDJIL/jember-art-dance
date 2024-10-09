@@ -12,7 +12,9 @@
                     <div class="title">Tari Lahbako</div>
                     <div class="topic">Seni & Budaya</div>
                     <div class="des">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, assumenda fuga sunt deserunt magnam quibusdam optio quia vel nisi accusantium modi aliquam consequuntur tenetur ratione excepturi pariatur? Tempore, non qui.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, assumenda fuga sunt deserunt magnam
+                        quibusdam optio quia vel nisi accusantium modi aliquam consequuntur tenetur ratione excepturi
+                        pariatur? Tempore, non qui.
                     </div>
                     <div class="buttons">
                         <button>JELAJAHI</button>
@@ -27,7 +29,9 @@
                     <div class="title">Tari Semarak Pandhalungan</div>
                     <div class="topic">Seni & Budaya</div>
                     <div class="des">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, assumenda fuga sunt deserunt magnam quibusdam optio quia vel nisi accusantium modi aliquam consequuntur tenetur ratione excepturi pariatur? Tempore, non qui.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, assumenda fuga sunt deserunt magnam
+                        quibusdam optio quia vel nisi accusantium modi aliquam consequuntur tenetur ratione excepturi
+                        pariatur? Tempore, non qui.
                     </div>
                     <div class="buttons">
                         <button>JELAJAHI</button>
@@ -42,7 +46,9 @@
                     <div class="title">Tari Padumbe</div>
                     <div class="topic">Seni & Budaya</div>
                     <div class="des">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, assumenda fuga sunt deserunt magnam quibusdam optio quia vel nisi accusantium modi aliquam consequuntur tenetur ratione excepturi pariatur? Tempore, non qui.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, assumenda fuga sunt deserunt magnam
+                        quibusdam optio quia vel nisi accusantium modi aliquam consequuntur tenetur ratione excepturi
+                        pariatur? Tempore, non qui.
                     </div>
                     <div class="buttons">
                         <button>JELAJAHI</button>
@@ -57,7 +63,9 @@
                     <div class="title">Tari Kuda Kencak</div>
                     <div class="topic">Seni & Budaya</div>
                     <div class="des">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, assumenda fuga sunt deserunt magnam quibusdam optio quia vel nisi accusantium modi aliquam consequuntur tenetur ratione excepturi pariatur? Tempore, non qui.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, assumenda fuga sunt deserunt magnam
+                        quibusdam optio quia vel nisi accusantium modi aliquam consequuntur tenetur ratione excepturi
+                        pariatur? Tempore, non qui.
                     </div>
                     <div class="buttons">
                         <button>JELAJAHI</button>
@@ -128,7 +136,7 @@
             </button>
             <button id="next">
                 <i class="fa-solid fa-arrow-right">
-            </i></button>
+                </i></button>
         </div>
 
         <div class="time"></div>
@@ -140,13 +148,289 @@
                 <h2 class="text-3xl font-bold">Kabupaten Jember</h2>
             </div>
 
-            <div class="mt-16 flex flex-wrap">
-                <div class="flex-1">
-                    <img class="w-120" src="{{ asset('assets/img/jember.jpeg') }}" alt="Kantor Bupati Jember">
+            <div class="mt-16 flex flex-col md:flex-row gap-10 justify-between">
+                <div class="max-w-full md:max-w-100 lg:max-w-120">
+                    <img class="object-cover" src="{{ asset('assets/img/jember.jpeg') }}" alt="Kantor Bupati Jember">
                 </div>
 
-                <div class="flex-1">
-                    <p class="font-hind text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio harum odit quam odio fuga delectus explicabo deleniti quis. Minus magnam ducimus aut ut officiis animi laboriosam quas voluptate asperiores similique?</p>
+                <div class="md:max-w-sm lg:max-w-lg xl:max-w-3xl">
+                    <p class="font-hind text-justify max-[400px]:text-sm max-[768px]:text-xl max-[820px]:text-sm min-[820px]:text-base lg:text-xl">Kabupaten Jember, yang terletak di Jawa Timur, adalah destinasi yang memikat dengan perpaduan keindahan alam dan kekayaan budaya yang khas. Dikelilingi pantai eksotis dan perbukitan hijau, Jember juga dikenal akan seni tari tradisionalnya yang kaya makna. Tarian seperti Tari Lahbako, yang mencerminkan kehidupan petani tembakau, menjadi ikon budaya daerah ini. Gerakan anggun pada tarian ini menceritakan proses panen tembakau, komoditas utama Jember yang terkenal hingga mancanegara.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pb-28 pl-4 px-4 md:px-0 md:pl-4">
+        <div class="content mx-auto">
+            <div class="flex flex-col md:flex-row justify-between md:gap-10 lg:gap-16">
+                <div class="mt-0 md:mt-10 md:ml-0">
+                    <div class="">
+                        <h2 class="text-3xl font-bold">Sanggar Tari Di</h2>
+                        <h2 class="text-3xl font-bold">Kabupaten Jember</h2>
+                    </div>
+
+                    <div class="mt-10 lg:max-w-xl md:max-w-96">
+                        <p class="font-hind md:text-base lg:text-xl text-justify">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                            1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                            book. It has survived not only five centuries, </p>
+                    </div>
+                </div>
+
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="swiper-item rounded-xl relative flex flex-col items-center">
+                                <img class="w-full h-96 object-cover rounded-xl" src="{{ asset('assets/img/sanggar1.png') }}"
+                                    alt="">
+    
+                                <div class="absolute text-center w-full top-6">
+                                    <h3 class="text-white font-hind font-medium md:text-xl xl:text-2xl">Sanggar Rias Busana</h3>
+    
+                                    <div class="text-yellow-300 text-sm flex gap-1.5 justify-center">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+    
+                                <div
+                                    class="swiper-location absolute bottom-6 px-5 py-2 rounded-lg flex items-center gap-2 backdrop-blur-sm bg-white/30">
+                                    <div class="text-red-600 text-base">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+    
+                                    <div class="">
+                                        <p class="font-hind text-xs font-medium">Ambulu, Kec. Ambulu, 68172</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-item rounded-xl relative flex flex-col items-center">
+                                <img class="w-full h-96 object-cover rounded-xl" src="{{ asset('assets/img/sanggar1.png') }}"
+                                    alt="">
+    
+                                <div class="absolute text-center w-full top-6">
+                                    <h3 class="text-white font-hind font-medium md:text-xl xl:text-2xl">Sanggar Rias Busana</h3>
+    
+                                    <div class="text-yellow-300 text-sm flex gap-1.5 justify-center">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+    
+                                <div
+                                    class="absolute bottom-6 px-5 py-2 rounded-lg flex items-center gap-2 backdrop-blur-sm bg-white/30">
+                                    <div class="text-red-600 text-base">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+    
+                                    <div class="">
+                                        <p class="font-hind text-xs">Ambulu, Kec. Ambulu, 68172</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-item rounded-xl relative flex flex-col items-center">
+                                <img class="w-full h-96 object-cover rounded-xl" src="{{ asset('assets/img/sanggar1.png') }}"
+                                    alt="">
+    
+                                <div class="absolute text-center w-full top-6">
+                                    <h3 class="text-white font-hind font-medium md:text-xl xl:text-2xl">Sanggar Rias Busana</h3>
+    
+                                    <div class="text-yellow-300 text-sm flex gap-1.5 justify-center">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+    
+                                <div
+                                    class="absolute bottom-6 px-5 py-2 rounded-lg flex items-center gap-2 backdrop-blur-sm bg-white/30">
+                                    <div class="text-red-600 text-base">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+    
+                                    <div class="">
+                                        <p class="font-hind text-xs">Ambulu, Kec. Ambulu, 68172</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-item rounded-xl relative flex flex-col items-center">
+                                <img class="w-full h-96 object-cover rounded-xl" src="{{ asset('assets/img/sanggar1.png') }}"
+                                    alt="">
+    
+                                <div class="absolute text-center w-full top-6">
+                                    <h3 class="text-white font-hind font-medium md:text-xl xl:text-2xl">Sanggar Rias Busana</h3>
+    
+                                    <div class="text-yellow-300 text-sm flex gap-1.5 justify-center">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+    
+                                <div
+                                    class="absolute bottom-6 px-5 py-2 rounded-lg flex items-center gap-2 backdrop-blur-sm bg-white/30">
+                                    <div class="text-red-600 text-base">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+    
+                                    <div class="">
+                                        <p class="font-hind text-xs">Ambulu, Kec. Ambulu, 68172</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pb-28 px-4">
+        <div class="content mx-auto">
+            <div class="text-center">
+                <h2 class="text-3xl font-bold">Tarian Hasil Kolaborasi</h2>
+            </div>
+    
+            <div class="grid grid-cols-2 sm:grid-cols-5 gap-2 sm:gap-4 lg:gap-8 mt-10">
+                <div class="">
+                    <img loading="lazy" class="rounded-md sm:rounded-xl lg:rounded-2xl w-full h-full shadow-lg" src="{{ asset('assets/img/collab1.png') }}" alt="">
+                </div>
+                <div class=" row-span-2">
+                    <img loading="lazy" class="rounded-md sm:rounded-xl lg:rounded-2xl w-full h-full shadow-lg" src="{{ asset('assets/img/collab2.png') }}" alt="">
+                </div>
+                <div class="">
+                    <img loading="lazy" class="rounded-md sm:rounded-xl lg:rounded-2xl w-full h-full shadow-lg" src="{{ asset('assets/img/collab3.png') }}" alt="">
+                </div>
+                <div class=" col-span-2">
+                    <img loading="lazy" class="rounded-md sm:rounded-xl lg:rounded-2xl w-full h-full shadow-lg" src="{{ asset('assets/img/collab4.png') }}" alt="">
+                </div>
+                <div class="">
+                    <img loading="lazy" class="rounded-md sm:rounded-xl lg:rounded-2xl w-full h-full shadow-lg" src="{{ asset('assets/img/collab1.png') }}" alt="">
+                </div>
+                <div class="col-span-2 order-last sm:order-6">
+                    <img loading="lazy" class="rounded-md sm:rounded-xl lg:rounded-2xl w-full h-full shadow-lg" src="{{ asset('assets/img/collab5.png') }}" alt="">
+                </div>
+                <div class="order-6 sm:order-7">
+                    <img loading="lazy" class="rounded-md sm:rounded-xl lg:rounded-2xl w-full h-full shadow-lg" src="{{ asset('assets/img/collab6.png') }}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pb-28 px-4">
+        <div class="content mx-auto">
+            <div class="text-center">
+                <h2 class="text-3xl font-bold">Acara Kebudayaan Tari</h2>
+            </div>
+
+            <div class="mt-10 grid max-[440px]:grid-cols-1 grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 place-items-center">
+                <div class="max-w-56 sm:max-w-80 bg-[#FCCD2A] border border-gray-200 rounded-xl shadow-lg dark:bg-gray-800 dark:border-gray-700">
+                    <div class="px-4 pt-4">
+                        <img class="rounded-xl w-full h-44 sm:h-64 object-cover object-center" src="{{ asset('assets/img/event1.jpg') }}" alt="" />
+                    </div>
+                    <div class="p-5">
+                        <h5 class="mb-2 text-sm sm:text-lg font-bold tracking-tight text-gray-900 dark:text-white">Event Senar Jember</h5>
+                        
+                        <div class="text-xs sm:text-base text-green-700 flex gap-2 items-center pl-1">
+                            <i class="fa-solid fa-clock"></i>
+                            <p class="font-hind font-semibold text-gray-800 dark:text-white relative top-[1.2px]">09:00 -- 12:00</p>
+                        </div>
+                        <div class="text-xs sm:text-base text-green-700 flex gap-2 items-center pl-1">
+                            <i class="fa-solid fa-calendar"></i>
+                            <p class="font-hind font-semibold text-gray-800 dark:text-white relative top-[1.2px]">20 Maret 2022</p>
+                        </div>
+                        <div class="text-xs sm:text-base text-green-700 flex gap-2 items-center pl-1">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p class="font-hind font-semibold text-gray-800 dark:text-white relative top-[1.2px]">Kaliwates, Lippo Plaza Jember</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-56 sm:max-w-80 bg-[#FCCD2A] border border-gray-200 rounded-xl shadow-lg dark:bg-gray-800 dark:border-gray-700">
+                    <div class="px-4 pt-4">
+                        <img class="rounded-xl w-full h-44 sm:h-64 object-cover object-center" src="{{ asset('assets/img/event1.jpg') }}" alt="" />
+                    </div>
+                    <div class="p-5">
+                        <h5 class="mb-2 text-sm sm:text-lg font-bold tracking-tight text-gray-900 dark:text-white">Event Senar Jember</h5>
+                        
+                        <div class="text-xs sm:text-base text-green-700 flex gap-2 items-center pl-1">
+                            <i class="fa-solid fa-clock"></i>
+                            <p class="font-hind font-semibold text-gray-800 dark:text-white relative top-[1.2px]">09:00 -- 12:00</p>
+                        </div>
+                        <div class="text-xs sm:text-base text-green-700 flex gap-2 items-center pl-1">
+                            <i class="fa-solid fa-calendar"></i>
+                            <p class="font-hind font-semibold text-gray-800 dark:text-white relative top-[1.2px]">20 Maret 2022</p>
+                        </div>
+                        <div class="text-xs sm:text-base text-green-700 flex gap-2 items-center pl-1">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p class="font-hind font-semibold text-gray-800 dark:text-white relative top-[1.2px]">Kaliwates, Lippo Plaza Jember</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-56 sm:max-w-80 bg-[#FCCD2A] border border-gray-200 rounded-xl shadow-lg dark:bg-gray-800 dark:border-gray-700">
+                    <div class="px-4 pt-4">
+                        <img class="rounded-xl w-full h-44 sm:h-64 object-cover object-center" src="{{ asset('assets/img/event1.jpg') }}" alt="" />
+                    </div>
+                    <div class="p-5">
+                        <h5 class="mb-2 text-sm sm:text-lg font-bold tracking-tight text-gray-900 dark:text-white">Event Senar Jember</h5>
+                        
+                        <div class="text-xs sm:text-base text-green-700 flex gap-2 items-center pl-1">
+                            <i class="fa-solid fa-clock"></i>
+                            <p class="font-hind font-semibold text-gray-800 dark:text-white relative top-[1.2px]">09:00 -- 12:00</p>
+                        </div>
+                        <div class="text-xs sm:text-base text-green-700 flex gap-2 items-center pl-1">
+                            <i class="fa-solid fa-calendar"></i>
+                            <p class="font-hind font-semibold text-gray-800 dark:text-white relative top-[1.2px]">20 Maret 2022</p>
+                        </div>
+                        <div class="text-xs sm:text-base text-green-700 flex gap-2 items-center pl-1">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p class="font-hind font-semibold text-gray-800 dark:text-white relative top-[1.2px]">Kaliwates, Lippo Plaza Jember</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-56 sm:max-w-80 bg-[#FCCD2A] border border-gray-200 rounded-xl shadow-lg dark:bg-gray-800 dark:border-gray-700">
+                    <div class="px-4 pt-4">
+                        <img class="rounded-xl w-full h-44 sm:h-64 object-cover object-center" src="{{ asset('assets/img/event1.jpg') }}" alt="" />
+                    </div>
+                    <div class="p-5">
+                        <h5 class="mb-2 text-sm sm:text-lg font-bold tracking-tight text-gray-900 dark:text-white">Event Senar Jember</h5>
+                        
+                        <div class="text-xs sm:text-base text-green-700 flex gap-2 items-center pl-1">
+                            <i class="fa-solid fa-clock"></i>
+                            <p class="font-hind font-semibold text-gray-800 dark:text-white relative top-[1.2px]">09:00 -- 12:00</p>
+                        </div>
+                        <div class="text-xs sm:text-base text-green-700 flex gap-2 items-center pl-1">
+                            <i class="fa-solid fa-calendar"></i>
+                            <p class="font-hind font-semibold text-gray-800 dark:text-white relative top-[1.2px]">20 Maret 2022</p>
+                        </div>
+                        <div class="text-xs sm:text-base text-green-700 flex gap-2 items-center pl-1">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p class="font-hind font-semibold text-gray-800 dark:text-white relative top-[1.2px]">Kaliwates, Lippo Plaza Jember</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

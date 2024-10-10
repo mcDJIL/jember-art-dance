@@ -345,25 +345,13 @@
     width: 264px;
 }
 
-.path::before,
-.path::after {
-    content: '';
-    position: absolute;
-    background-color: #ccc;
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
-}
-.path::before {
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.path::after {
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
+#timeline-lahbako {
+    transition: border 0.3s ease-in-out;
+  }
+  
+  #lahbako {
+    transition: transform 0.3s ease-in-out;
+  }
 
 @media screen and (max-width: 1280px) {
     .swiper-item {

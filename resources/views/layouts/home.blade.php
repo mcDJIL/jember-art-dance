@@ -34,7 +34,7 @@
             id="navbar" class="fixed z-50 w-full top-0 start-0">
             <div class="content flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-                    <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Jember Art Dance</span>
+                    <!-- <img class="" src="{{ asset('assets/img/Logo Putih.png') }}" alt=""> -->
                 </a>
 
                 <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white hover:text-gray-700 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-sticky" aria-expanded="false">

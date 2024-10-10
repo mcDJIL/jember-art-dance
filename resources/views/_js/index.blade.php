@@ -88,6 +88,20 @@
                 }
             }
         });
+
+        document.getElementById('timeline-lahbako').addEventListener('mouseenter', function() {
+            document.getElementById('timeline-lahbako').style.border = '2px solid #1d4ed8';
+            document.getElementById('lahbako').style.transform = 'translateY(-10px)';
+            document.getElementById('lahbako').style.boxShadow = '0 8px 16px rgba(0, 0, 0, 0.3)';
+            document.getElementById('lahbako').style.transition = 'all 0.3s ease';
+        });
+        
+        document.getElementById('timeline-lahbako').addEventListener('mouseleave', function() {
+            document.getElementById('timeline-lahbako').style.border = '';
+            document.getElementById('lahbako').style.transform = '';
+            document.getElementById('lahbako').style.boxShadow = '';
+        });
+
     </script>
 
 @endpush

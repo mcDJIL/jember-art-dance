@@ -19,8 +19,8 @@ module.exports = {
       fontFamily: {
         hind: ['"Hind"', 'sans-serif'],
       },
-      gridColumn: {
-        '2/3': '2/3'
+      screens: {
+        'xs': '540px'
       }
     },
   },

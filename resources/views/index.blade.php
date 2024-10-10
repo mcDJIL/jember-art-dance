@@ -632,9 +632,28 @@
         </div>
     </div>
 
-    <div class="pt-28 pb-28">
+    <div class="pt-40 pb-28 px-4 bg-[#FCCD2A]">
         <div class="content mx-auto">
-            
+            <div class="mx-auto bg-white rounded-3xl relative max-w-lg md:max-w-4xl">
+                <div class="absolute -top-[7%] min-[540px]:-top-[8%] left-[10%] md:-top-[6%] md:left-[13%] text-white bg-green-700 rounded-full w-[40px] h-[40px] min-[540px]:w-[50px] min-[540px]:h-[50px] place-content-center text-center text-xl min-[540px]:text-2xl">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+
+                <div class="border-4 md:border-8 border-green-700 rounded-full absolute -top-[20%] min-[540px]:-top-[23%] md:-top-[23%] left-1/2 -translate-x-1/2 max-[540px]:w-[100px] max-[540px]:h-[100px] min-[540px]:w-[130px] min-[540px]:h-[130px] md:w-[170px] md:h-[170px]">
+                    <img class="rounded-full w-full h-full object-top object-cover" src="{{ asset('assets/img/testi1.png') }}" alt="">
+                </div>
+                
+                <p class="pt-20 pb-6 min-[400px]:pb-8 min-[540px]:pt-24 min-[540px]:pb-8 md:pt-32 md:pb-16 text-center font-hind text-[8px] min-[400px]:text-xs min-[540px]:text-sm md:text-lg max-w-[230px] min-[400px]:max-w-[300px] min-[540px]:max-w-sm md:max-w-lg mx-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+                
+                <div class="pb-5 pl-6 md:pb-8 md:pl-10">
+                    <h3 class="text-green-700 font-bold text-xs min-[540px]:text-sm md:text-xl">JOHN DOE</h3>
+                    <p class="text-[10px] min-[540px]:text-xs md:text-base">Penari, SMKN 3 Jember</p>
+                </div>
+
+                <div class="absolute -bottom-[7%] min-[540px]:-bottom-[8%] right-[10%] md:-bottom-[6%] md:right-[13%] text-white bg-green-700 rounded-full w-[40px] h-[40px] min-[540px]:w-[50px] min-[540px]:h-[50px] place-content-center text-center text-xl min-[540px]:text-2xl">
+                    <i class="fa-solid fa-quote-right"></i>
+                </div>
+            </div>
         </div>
     </div>
 @endsection

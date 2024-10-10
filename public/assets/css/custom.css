@@ -45,7 +45,7 @@
     width: 1140px;
     max-width: 80%;
     left: 40%;
-    transform: translateX(-52%);
+    transform: translateX(-54%);
     padding-right: 30%;
     box-sizing: border-box;
     color: #fff;
@@ -331,6 +331,8 @@
     margin-right: 0 !important;
     margin-left: 0 !important;
     max-width: 768px !important;
+    padding-bottom: 5px !important;
+    padding-left: 5px !important;
 }
 
 .swiper-button-prev, .swiper-button-next {
@@ -341,6 +343,26 @@
 
 .swiper-item {
     width: 264px;
+}
+
+.path::before,
+.path::after {
+    content: '';
+    position: absolute;
+    background-color: #ccc;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+.path::before {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.path::after {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 @media screen and (max-width: 1280px) {
@@ -475,6 +497,10 @@
 
     .swiper-item {
         width: 280px;
+    }
+
+    #timeline {
+        display: none;
     }
 }
 

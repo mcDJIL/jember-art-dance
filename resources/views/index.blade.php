@@ -196,7 +196,12 @@
     </div>
 </div>
 
-<div class="pb-28 pl-4 px-4 md:px-0 md:pl-4">
+<div class="pb-28 pl-4 px-4 md:px-0 md:pl-4 relative">
+
+    <div class="sanggar3d absolute -top-[5%] bg-none">
+        <img id="sanggar3d" class="w-[75px]" src="{{ asset('assets/img/sanggar-3d.png') }}" alt="">
+    </div>
+
     <div class="content mx-auto">
         <div class="flex flex-col md:flex-row justify-between md:gap-10 lg:gap-16">
             <div class="mt-0 md:mt-10 md:ml-0">
@@ -352,8 +357,12 @@
 
 <div class="pb-28 px-4">
     <div class="content mx-auto">
-        <div class="text-center">
+        <div class="text-center md:flex md:justify-center md:items-center md:gap-8">
+            <img class="kipas-1 w-[75px]" src="{{ asset('assets/img/kipas-3d.png') }}" alt="">
+            
             <h2 class="text-3xl font-bold">Tarian Hasil Kolaborasi</h2>
+            
+            <img class="kipas-2 w-[75px]" src="{{ asset('assets/img/kipas-3d.png') }}" alt="">
         </div>
 
         <div class="grid grid-cols-2 sm:grid-cols-5 gap-2 sm:gap-4 lg:gap-8 mt-10">
@@ -520,7 +529,7 @@
     <div class="content mx-auto relative">
 
         <ol class="grid grid-cols-1 sm:grid-rows-1 md:grid-cols-3 gap-6 md:place-items-center">
-            <li id="lahbako" class="shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] bg-white px-4 py-4 rounded-xl mb-6 sm:mb-0 md:max-w-72 lg:max-w-80 xl:max-w-100">
+            <li id="lahbako" class="content-tari shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] bg-white px-4 py-4 rounded-xl mb-6 sm:mb-0 md:max-w-72 lg:max-w-80 xl:max-w-100">
                 <div class="flex items-center">
                     <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full dark:bg-blue-900 shrink-0">
                         <svg class="w-2.5 h-2.5 text-blue-900 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -537,7 +546,7 @@
                         components and interactive elements.</p>
                 </div>
             </li>
-            <li class="shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] bg-white px-4 py-4 rounded-xl relative mb-6 sm:mb-0 md:max-w-72 lg:max-w-80 xl:max-w-100">
+            <li id="tari-3" class="content-tari shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] bg-white px-4 py-4 rounded-xl relative mb-6 sm:mb-0 md:max-w-72 lg:max-w-80 xl:max-w-100">
                 <div class="flex items-center">
                     <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full dark:bg-blue-900 shrink-0">
                         <svg class="w-2.5 h-2.5 text-blue-900 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -554,7 +563,7 @@
                         components and interactive elements.</p>
                 </div>
             </li>
-            <li class="shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] bg-white px-4 py-4 rounded-xl relative mb-6 sm:mb-0 md:max-w-72 lg:max-w-80 xl:max-w-100">
+            <li id="tari-5" class="content-tari shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] bg-white px-4 py-4 rounded-xl relative mb-6 sm:mb-0 md:max-w-72 lg:max-w-80 xl:max-w-100">
                 <div class="flex items-center">
                     <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full dark:bg-blue-900 shrink-0">
                         <svg class="w-2.5 h-2.5 text-blue-900 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -573,28 +582,28 @@
             </li>
         </ol>
 
-        <div id="timeline" class="md:w-full md:py-14 relative">
+        <div class="md:w-full md:py-14 relative">
             {{-- garis timeline --}}
             <div class="md:w-full md:h-1 md:bg-black mx-auto md:relative md:z-0">
                 <span class="md:absolute md:bottom-1/2 md:transform md:-translate-y-[70%] md:left-[13.9%] font-semibold">2017</span>
-                <div id="timeline-lahbako" class="shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] md:px-4 md:py-4 md:bg-white md:absolute md:rounded-full md:top-1/2 md:transform md:-translate-y-1/2 md:left-[14%]"></div>
+                <div id="timeline-lahbako" class="timeline-tari shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] md:px-4 md:py-4 md:bg-white md:absolute md:rounded-full md:top-1/2 md:transform md:-translate-y-1/2 md:left-[14%]"></div>
 
                 <span class="md:absolute md:top-1/2 md:transform md:translate-y-[70%] md:left-[31.9%] font-semibold">2017</span>
-                <div class="md:px-4 md:py-4 md:bg-white md:absolute md:rounded-full md:top-1/2 md:transform md:-translate-y-1/2 md:left-[32%]"></div>
+                <div id="timeline-2" class="timeline-tari md:px-4 md:py-4 md:bg-white md:absolute md:rounded-full md:top-1/2 md:transform md:-translate-y-1/2 md:left-[32%]"></div>
 
                 <span class="md:absolute md:bottom-1/2 md:transform md:-translate-y-[70%] md:left-[48.9%] font-semibold">2017</span>
-                <div class="md:px-4 md:py-4 md:bg-white md:absolute md:rounded-full md:top-1/2 md:transform md:-translate-y-1/2 md:left-[49%]"></div>
+                <div id="timeline-3" class="timeline-tari md:px-4 md:py-4 md:bg-white md:absolute md:rounded-full md:top-1/2 md:transform md:-translate-y-1/2 md:left-[49%]"></div>
 
                 <span class="md:absolute md:top-1/2 md:transform md:translate-y-[70%] md:right-[31.9%] font-semibold">2017</span>
-                <div class="md:px-4 md:py-4 md:bg-white md:absolute md:rounded-full md:top-1/2 md:transform md:-translate-y-1/2 md:right-[32%]"></div>
+                <div id="timeline-4" class="timeline-tari md:px-4 md:py-4 md:bg-white md:absolute md:rounded-full md:top-1/2 md:transform md:-translate-y-1/2 md:right-[32%]"></div>
 
                 <span class="md:absolute md:bottom-1/2 md:transform md:-translate-y-[70%] md:right-[13.9%] font-semibold">2017</span>
-                <div class="md:px-4 md:py-4 md:bg-white md:absolute md:rounded-full md:top-1/2 md:transform md:-translate-y-1/2 md:right-[14%]"></div>
+                <div id="timeline-5" class="timeline-tari md:px-4 md:py-4 md:bg-white md:absolute md:rounded-full md:top-1/2 md:transform md:-translate-y-1/2 md:right-[14%]"></div>
             </div>
         </div>
 
         <ol class="mt-6 md:mt-0 md:items-center flex flex-col md:flex-row md:justify-center md:gap-x-[100px] gap-6">
-            <li class="shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] bg-white px-4 py-4 rounded-xl relative mb-6 sm:mb-0">
+            <li id="tari-2" class="content-tari shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] bg-white px-4 py-4 rounded-xl relative mb-6 sm:mb-0">
                 <div class="flex items-center">
                     <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full dark:bg-blue-900 shrink-0">
                         <svg class="w-2.5 h-2.5 text-blue-900 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -611,7 +620,7 @@
                         components and interactive elements.</p>
                 </div>
             </li>
-            <li class="shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] bg-white px-4 py-4 rounded-xl relative mb-6 sm:mb-0">
+            <li id="tari-4" class="content-tari shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] bg-white px-4 py-4 rounded-xl relative mb-6 sm:mb-0">
                 <div class="flex items-center">
                     <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full dark:bg-blue-900 shrink-0">
                         <svg class="w-2.5 h-2.5 text-blue-900 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">

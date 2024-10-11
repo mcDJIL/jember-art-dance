@@ -1,5 +1,5 @@
 .content {
-    max-width: 1536px;
+    max-width: 1280px;
 }
 
 .nav-link {
@@ -42,10 +42,10 @@
 .carousel .list .item .carousel-content {
     position: absolute;
     top: 20%;
-    width: 1140px;
+    width: 1020px;
     max-width: 80%;
     left: 40%;
-    transform: translateX(-54%);
+    transform: translateX(-51%);
     padding-right: 30%;
     box-sizing: border-box;
     color: #fff;
@@ -345,13 +345,23 @@
     width: 264px;
 }
 
-#timeline-lahbako {
+.timeline-tari {
     transition: border 0.3s ease-in-out;
   }
   
-  #lahbako {
+  .content-tari {
     transition: transform 0.3s ease-in-out;
   }
+
+#sanggar3d {
+    transform-style: preserve-3d !important;
+    transition: transform 0.1s !important;
+}
+
+.kipas-1, .kipas-2 {
+    transform-style: preserve-3d !important;
+    transition: transform 0.1s !important;
+}
 
 @media screen and (max-width: 1280px) {
     .swiper-item {
@@ -419,6 +429,14 @@
 
     .swiper-location p {
         font-size: 14px;
+    }
+
+    .sanggar3d {
+        display: none;
+    }
+
+    .kipas-1, .kipas-2 {
+        display: none;
     }
 }
 

@@ -33,8 +33,8 @@
         <nav
             id="navbar" class="fixed z-50 w-full top-0 start-0">
             <div class="content flex flex-wrap items-center justify-between mx-auto p-4">
-                <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-                    <!-- <img class="" src="{{ asset('assets/img/Logo Putih.png') }}" alt=""> -->
+                <a id="logo" href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img class="w-24" src="{{ asset('assets/img/Logo Putih.png') }}" alt="">
                 </a>
 
                 <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white hover:text-gray-700 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-sticky" aria-expanded="false">
@@ -82,9 +82,13 @@
         $(document).ready(function() {
             $(window).on('scroll', function() {
                 if ($(document).scrollTop() >= 10) {
-                    $('#navbar').addClass('bg-green-700');
+                    $('#navbar').addClass('backdrop-blur-lg bg-white shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)]');
+                    $('.nav-link').css('color', '#000')
+                    $('#logo img').attr('src', '{{ asset('assets/img/Logo Hitam.png') }}');
                 } else {
-                    $('#navbar').removeClass('bg-green-700');
+                    $('#navbar').removeClass('backdrop-blur-lg bg-white shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)]');
+                    $('.nav-link').css('color', '#fff')
+                    $('#logo img').attr('src', '{{ asset('assets/img/Logo Putih.png') }}');
                 }
             })
         })

@@ -412,11 +412,11 @@
         </div>
 
         <div
-            class="mt-10 grid max-[440px]:grid-cols-1 grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 place-items-center">
+            class="mt-10 grid max-[440px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-5 place-items-center">
             <div
-                class="max-w-56 sm:max-w-80 bg-[#FFF6D5] rounded-xl transition-all overflow-hidden border-2 border-transparent hover:border-green-600 duration-300 shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] hover:shadow-[0_6px_7px_1px_rgb(0,0,0,0.3)]">
+                class="max-w-56 sm:max-w-80 bg-[#FFF6D5] rounded-xl transition-all duration-[0.5s] overflow-hidden border-2 border-transparent hover:border-green-600 hover:-translate-y-6 shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] hover:shadow-[0_6px_7px_1px_rgb(0,0,0,0.3)]">
                 <div class="px-4 pt-4">
-                    <img class="rounded-xl transform transition-transform duration-500 hover:scale-105 w-full h-44 sm:h-64 object-cover object-center"
+                    <img class="rounded-xl w-full h-44 sm:h-64 object-cover object-center"
                         src="{{ asset('assets/img/event1.jpg') }}" alt="" />
                 </div>
                 <div class="p-5">
@@ -441,9 +441,9 @@
                 </div>
             </div>
             <div
-                class="max-w-56 sm:max-w-80 bg-[#FFF6D5] rounded-xl transition-all overflow-hidden border-2 border-transparent hover:border-green-600 duration-300 shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] hover:shadow-[0_6px_7px_1px_rgb(0,0,0,0.3)]">
+                class="max-w-56 sm:max-w-80 bg-[#FFF6D5] rounded-xl transition-all duration-[0.5s] overflow-hidden border-2 border-transparent hover:border-green-600 hover:-translate-y-6 shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] hover:shadow-[0_6px_7px_1px_rgb(0,0,0,0.3)]">
                 <div class="px-4 pt-4">
-                    <img class="rounded-xl transform transition-transform duration-500 hover:scale-105 w-full h-44 sm:h-64 object-cover object-center"
+                    <img class="rounded-xl w-full h-44 sm:h-64 object-cover object-center"
                         src="{{ asset('assets/img/event1.jpg') }}" alt="" />
                 </div>
                 <div class="p-5">
@@ -468,36 +468,9 @@
                 </div>
             </div>
             <div
-                class="max-w-56 sm:max-w-80 bg-[#FFF6D5] rounded-xl transition-all overflow-hidden border-2 border-transparent hover:border-green-600 duration-300 shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] hover:shadow-[0_6px_7px_1px_rgb(0,0,0,0.3)]">
+                class="max-w-56 sm:max-w-80 bg-[#FFF6D5] rounded-xl transition-all duration-[0.5s] overflow-hidden border-2 border-transparent hover:border-green-600 hover:-translate-y-6 shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] hover:shadow-[0_6px_7px_1px_rgb(0,0,0,0.3)]">
                 <div class="px-4 pt-4">
-                    <img class="rounded-xl transform transition-transform duration-500 hover:scale-105 w-full h-44 sm:h-64 object-cover object-center"
-                        src="{{ asset('assets/img/event1.jpg') }}" alt="" />
-                </div>
-                <div class="p-5">
-                    <h5 class="mb-2 text-sm sm:text-lg font-bold tracking-tight text-gray-900 dark:text-white">Event
-                        Senar Jember</h5>
-
-                    <div class="text-xs sm:text-base text-green-700 flex gap-2 items-center pl-1">
-                        <i class="fa-solid fa-clock"></i>
-                        <p class="font-hind font-semibold text-gray-800 dark:text-white relative top-[1.2px]">09:00 --
-                            12:00</p>
-                    </div>
-                    <div class="text-xs sm:text-base text-green-700 flex gap-2 items-center pl-1">
-                        <i class="fa-solid fa-calendar"></i>
-                        <p class="font-hind font-semibold text-gray-800 dark:text-white relative top-[1.2px]">20 Maret
-                            2022</p>
-                    </div>
-                    <div class="text-xs sm:text-base text-green-700 flex gap-2 items-center pl-1">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <p class="font-hind font-semibold text-gray-800 dark:text-white relative top-[1.2px]">
-                            Kaliwates, Lippo Plaza Jember</p>
-                    </div>
-                </div>
-            </div>
-            <div
-                class="max-w-56 sm:max-w-80 bg-[#FFF6D5] rounded-xl transition-all overflow-hidden border-2 border-transparent hover:border-green-600 duration-300 shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] hover:shadow-[0_6px_7px_1px_rgb(0,0,0,0.3)]">
-                <div class="px-4 pt-4">
-                    <img class="rounded-xl transform transition-transform duration-500 hover:scale-105 w-full h-44 sm:h-64 object-cover object-center"
+                    <img class="rounded-xl w-full h-44 sm:h-64 object-cover object-center"
                         src="{{ asset('assets/img/event1.jpg') }}" alt="" />
                 </div>
                 <div class="p-5">
@@ -602,7 +575,7 @@
             </div>
         </div>
 
-        <ol class="mt-6 md:mt-0 md:items-center flex flex-col md:flex-row md:justify-center md:gap-x-[100px] gap-6">
+        <ol class="mt-6 md:mt-0 md:items-center flex flex-col md:flex-row md:justify-center md:gap-x-[35px] gap-6">
             <li id="tari-2" class="content-tari shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] bg-white px-4 py-4 rounded-xl relative mb-6 sm:mb-0">
                 <div class="flex items-center">
                     <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full dark:bg-blue-900 shrink-0">

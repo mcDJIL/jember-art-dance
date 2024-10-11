@@ -165,10 +165,10 @@
             if (containerRect.top <= window.innerHeight && containerRect.bottom >= 0) {
                 if (scrollTop > lastScrollTop) {
                     // Scrolling down
-                    rotationY -= 1.5;
+                    rotationY -= 1;
                 } else {
                     // Scrolling up
-                    rotationY += 1.5;
+                    rotationY += 1;
                 }
                 sanggar3d.style.transform = `rotate(${rotationY}deg)`;
             }

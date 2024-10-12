@@ -1,35 +1,31 @@
-on: 
-  push: 
+name: Publish Website to CPanel
+on:
+  push:
     branches:
       - master
-name: 🚀 Deploy website on push
 jobs:
-  web-deploy:
-    name: 🎉 Deploy
+  FTP-Deploy-Action:
+    name: FTP-Deploy-Action
     runs-on: ubuntu-latest
     steps:
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v2
-      
-    - name: 🚚 Install Composer Dependencies SITE
-      working-directory: ./
-      run: composer install --prefer-dist
-    
-    - name: 🚚 Install Composer Dependencies ADM
-      working-directory: ./public/adm
-      run: composer install --prefer-dist
-            
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.2.0
+    - uses: actions/checkout@v2.1.0
       with:
-        server: ${{ secrets.ftp_host}}
-        username: ${{ secrets.ftp_user }}
-        password: ${{ secrets.ftp_password }}
-        exclude: |
-          .git/**
-          .git**
-          .git*/**
-          **/.git*
-          **/.git*/**
-          **/node_modules/**
-          fileToExclude.txt
+        fetch-depth: 2 
+    - name: Build assets
+      run: npm install && npm run build
+
+    - name: Install PHP and Composer
+      uses: shivammathur/setup-php@v2
+      with:
+          php-version: '8.2' # Adjust to match the PHP version used by your Laravel project
+          tools: 'composer'
+
+    - name: Install PHP dependencies
+      run: composer install --no-dev --optimize-autoloader
+        
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@4.3.3
+      with:
+        server: ${{ secrets.SERVER }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}

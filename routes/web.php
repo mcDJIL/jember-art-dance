@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/tari-lahbako', function () {
+    return view('pages.detail-tari.lahbako');
+});

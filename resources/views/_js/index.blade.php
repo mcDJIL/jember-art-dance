@@ -1,6 +1,8 @@
 @push('script')
     
     <script>
+        document.addEventListener('DOMContentLoaded', function() {
+
         const nextDom = document.getElementById('next');
         const prevDom = document.getElementById('prev');
         const carousel = document.querySelector('.carousel');
@@ -50,7 +52,7 @@
         }
 
         // Initialize Swiper
-        let swiper = new Swiper('.swiper', {
+        let swiper = new Swiper('.sanggar-swiper', {
             // Optional parameters
             direction: 'horizontal',
             loop: true,
@@ -86,6 +88,29 @@
                     slidesPerView: 3,
                     spaceBetween: 120,
                 }
+            }
+        });
+
+        let testimoniSwiper = new Swiper('.testimoni-swiper', {
+            effect: 'coverflow',
+            centeredSlides: true,
+            slidesPerView: 3,
+            initialSlide: 2,
+            loop: true,
+            loopedSlides: 3, // Increase this number
+            autoplay: {
+                delay: 3000,  // Set delay between slides in milliseconds
+                reverseDirection: true,  // Set autoplay direction to left (reverse)
+            },
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: false,
+            },
+            pagination: {
+                el: '.testimoni-pagination',
             }
         });
 
@@ -154,27 +179,28 @@
             document.getElementById('tari-5').style.boxShadow = '';
         });
 
-        const sanggar3d = document.getElementById('sanggar3d');
-        let lastScrollTop = 0;
-        let rotationY = 0;
+        const galeriItems = document.querySelectorAll('.galeri');
+        const overlay = document.querySelector('.overlay-galeri');
 
-        window.addEventListener('scroll', () => {
-            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            const containerRect = sanggar3d.parentElement.getBoundingClientRect();
+        // Fungsi saat gambar di-hover
+        galeriItems.forEach(item => {
+            item.addEventListener('mouseenter', () => {
+                let teks = item.nextElementSibling;
 
-            if (containerRect.top <= window.innerHeight && containerRect.bottom >= 0) {
-                if (scrollTop > lastScrollTop) {
-                    // Scrolling down
-                    rotationY -= 1;
-                } else {
-                    // Scrolling up
-                    rotationY += 1;
-                }
-                sanggar3d.style.transform = `rotate(${rotationY}deg)`;
-            }
+                overlay.classList.add('active');
+                item.classList.add('hovered');
+                teks.classList.add('active');
+            });
 
-            lastScrollTop = scrollTop;
+            item.addEventListener('mouseleave', () => {
+                let teks = item.nextElementSibling;
+
+                overlay.classList.remove('active');
+                item.classList.remove('hovered');
+                teks.classList.remove('active');
+            });
         });
+    });
     </script>
 
 @endpush

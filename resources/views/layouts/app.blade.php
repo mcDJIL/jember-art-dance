@@ -117,6 +117,8 @@
                             <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">EVOLUSI</div>
                         </div>
 
+                        <div class="max-[480px]:w-full max-[480px]:h-0.5 max-[480px]:bg-white max-[480px]:mt-[6px]"></div>
+
                         <div class="flex flex-col mt-2 min-[480px]:mt-0 gap-2 min-[480px]:gap-5">
                             <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">TARI LAHBAKO</div>
                             <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">TARI SEMARAK <br> PANDHALUNGAN</div>

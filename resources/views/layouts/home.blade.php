@@ -73,63 +73,65 @@
         </div>
 
         <div class="pt-14">
-    <div class="w-full">
-        <div class="bg-footer md:h-[500px] lg:h-[650px] flex items-center w-full relative px-4 pb-16 md:pb-0">
-            <div class="content w-full mx-auto flex flex-col md:flex-row justify-between gap-10 items-center z-10">
-                <div class="md:max-w-xs lg:max-w-md xl:max-w-lg">
-                    <div class="flex justify-start md:justify-center mb-4 min-[480px]:mb-8">
-                        <img class="w-24 min-[480px]:w-32 xl:w-48" src="{{ asset('assets/img/Logo Hitam.png') }}" alt="Logo Website">
-                    </div>
-    
-                    <div class="">
-                        <p class="text-justify font-hind text-sm min-[480px]:text-lg md:text-base xl:text-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, bu</p>
-                    </div>
-    
-                    <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between mt-4 min-[480px]:mt-10">
-                        <div class="">
-                            <p class="font-medium text-sm min-[480px]:text-lg md:text-base xl:text-lg font-hind">Bagikan informasi menarik Jember melalui</p>
-                        </div>
-    
-                        <div class="text-black text-[25px] min-[480px]:text-[40px] md:text-[30px] xl:text-[40px] flex gap-3 min-[480px]:gap-6">
-                            <a href="">
-                                <i class="fa-brands fa-facebook"></i>
-                            </a>
+            <div class="w-full">
+                <div class="bg-footer md:h-[500px] lg:h-[650px] flex items-center w-full relative px-4 pb-16 md:pb-0">
+                    <div class="content w-full mx-auto flex flex-col md:flex-row justify-between gap-10 items-center z-10">
+                        <div class="md:max-w-xs lg:max-w-md xl:max-w-lg">
+                            <div class="flex justify-start md:justify-center mb-4 min-[480px]:mb-8">
+                                <img class="w-24 min-[480px]:w-32 xl:w-48" src="{{ asset('assets/img/Logo Hitam.png') }}" alt="Logo Website">
+                            </div>
+            
+                            <div class="">
+                                <p class="text-justify font-hind text-sm min-[480px]:text-lg md:text-base xl:text-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, bu</p>
+                            </div>
+            
+                            <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between mt-4 min-[480px]:mt-10">
+                                <div class="">
+                                    <p class="font-medium text-sm min-[480px]:text-lg md:text-base xl:text-lg font-hind">Bagikan informasi menarik Jember melalui</p>
+                                </div>
+            
+                                <div class="text-black text-[25px] min-[480px]:text-[40px] md:text-[30px] xl:text-[40px] flex gap-3 min-[480px]:gap-6">
+                                    <a href="">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
 
-                            <a href="">
-                                <i class="fa-brands fa-square-instagram"></i>
-                            </a>
+                                    <a href="">
+                                        <i class="fa-brands fa-square-instagram"></i>
+                                    </a>
 
-                            <a href="">
-                                <i class="fa-brands fa-square-whatsapp"></i>
-                            </a>
+                                    <a href="">
+                                        <i class="fa-brands fa-square-whatsapp"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-    
-                <div class="footer md:max-w-sm lg:max-w-lg xl:max-w-xl rounded-xl md:rounded-2xl xl:rounded-3xl w-full h-[400px] min-[480px]:h-[280px] md:h-[250px] lg:h-[300px] xl:h-[330px] bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-60 border border-white flex items-center">
-                    <div class="footer-menu w-full py-8 px-5 md:px-4 lg:px-12 flex flex-col min-[480px]:flex-row min-[480px]:justify-between">
-                        <div class="flex flex-col gap-2 min-[480px]:gap-5">
-                            <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">ACARA</div>
-                            <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">TENTANG</div>
-                            <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">SANGGAR</div>
-                            <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">TESTIMONI</div>
-                            <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">KOLABORASI</div>
-                            <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">EVOLUSI</div>
-                        </div>
+            
+                        <div class="footer md:max-w-sm lg:max-w-lg xl:max-w-xl rounded-xl md:rounded-2xl xl:rounded-3xl w-full h-[400px] min-[480px]:h-[280px] md:h-[250px] lg:h-[300px] xl:h-[330px] bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-60 border border-white flex items-center">
+                            <div class="footer-menu w-full py-8 px-5 md:px-4 lg:px-12 flex flex-col min-[480px]:flex-row min-[480px]:justify-between">
+                                <div class="flex flex-col gap-2 min-[480px]:gap-5">
+                                    <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">ACARA</div>
+                                    <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">TENTANG</div>
+                                    <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">SANGGAR</div>
+                                    <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">TESTIMONI</div>
+                                    <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">KOLABORASI</div>
+                                    <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">EVOLUSI</div>
+                                </div>
 
-                        <div class="flex flex-col mt-2 min-[480px]:mt-0 gap-2 min-[480px]:gap-5">
-                            <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">TARI LAHBAKO</div>
-                            <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">TARI SEMARAK <br> PANDHALUNGAN</div>
-                            <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">TARI PADUMBE</div>
-                            <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">TARI PARVVATESWARA</div>
-                            <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">TARI KUDA KENCAK</div>
+                                <div class="max-[480px]:w-full max-[480px]:h-0.5 max-[480px]:bg-white max-[480px]:mt-[6px]"></div>
+
+                                <div class="flex flex-col mt-2 min-[480px]:mt-0 gap-2 min-[480px]:gap-5">
+                                    <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">TARI LAHBAKO</div>
+                                    <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">TARI SEMARAK <br> PANDHALUNGAN</div>
+                                    <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">TARI PADUMBE</div>
+                                    <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">TARI PARVVATESWARA</div>
+                                    <div class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">TARI KUDA KENCAK</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 

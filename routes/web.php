@@ -20,3 +20,15 @@ Route::get('/', function () {
 Route::get('/tari-lahbako', function () {
     return view('pages.detail-tari.lahbako');
 });
+Route::get('/tari-pandhalungan', function () {
+    return view('pages.detail-tari.pandhalungan');
+});
+Route::get('/tari-padumbe', function () {
+    return view('pages.detail-tari.padumbe');
+});
+Route::get('/tari-mojosari', function () {
+    return view('pages.detail-tari.mojosari');
+});
+Route::get('/tari-macan-kadduk', function () {
+    return view('pages.detail-tari.macan-kaduk');
+});

@@ -63,6 +63,15 @@
     line-height: 1.3em;
 }
 
+.carousel .list .item .carousel-content .title:nth-child(1) {
+    color: #FCCD2A;
+    font-size: 3em;
+}
+
+.carousel .list .item .carousel-content .topic {
+    font-size: 3em;
+}
+
 .carousel .list .item .carousel-content .title {
     color: #FCCD2A;
     font-size: 4em;
@@ -87,7 +96,7 @@
     padding: 8px 20px;
 }
 
-.carousel .list .item .carousel-content button:nth-child(2) {
+.carousel .list .item .carousel-content a button {
     background-color: transparent;
     border: 1px solid #eee;
     color: #eee;
@@ -680,10 +689,10 @@
         position: absolute;
         top: 15%;
         width: 1140px;
-        max-width: 80%;
-        left: 40%;
-        transform: translateX(-52%);
-        padding-right: 10%;
+        max-width: 100%;
+        left: 50%;
+        transform: translateX(-51.8%);
+        padding-right: 20%;
     }
 
     .testimoni-slide {

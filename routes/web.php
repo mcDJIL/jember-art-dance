@@ -30,5 +30,15 @@ Route::get('/tari-mojosari', function () {
     return view('pages.detail-tari.mojosari');
 });
 Route::get('/tari-macan-kadduk', function () {
-    return view('pages.detail-tari.macan-kaduk');
+    return view('pages.detail-tari.macan-kadduk');
+});
+
+Route::get('/event/lomba-tari-tradisional', function () {
+    return view('pages.event.lomba1');
+});
+Route::get('/event/festival-kesenian-nusantara', function () {
+    return view('pages.event.lomba2');
+});
+Route::get('/event/pagelaran-wayang-kulit', function () {
+    return view('pages.event.lomba3');
 });

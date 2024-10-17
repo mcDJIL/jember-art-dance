@@ -1,18 +1,18 @@
 @extends('layouts.app')
 
-@section('title', 'Tari Lahbako - Jember Art Dance')
+@section('title', 'Tari Pandhalungan - Jember Art Dance')
 
 @section('content')
 
     <div class="pt-40 pb-14 px-4">
         <div class="content mx-auto">
             <div
-                class="relative tari-lahbako rounded-xl md:rounded-3xl px-4 py-4 md:px-8 md:py-12 flex flex-col min-[540px]:flex-row min-[540px]:justify-between gap-4 md:gap-10">
+                class="relative tari-pandhalungan rounded-xl md:rounded-3xl px-4 py-4 md:px-8 md:py-12 flex flex-col min-[540px]:flex-row min-[540px]:justify-between gap-4 md:gap-10">
                 <div class="absolute rounded-xl md:rounded-3xl z-10 top-0 right-0 left-0 bottom-0 overlay-detail"></div>
 
                 <div class="max-w-3xl z-20">
                     <div class="text-white">
-                        <h1 class="font-extrabold text-lg min-[540px]:text-sm md:text-lg lg:text-3xl">PESONA TARI LAHBAKO,
+                        <h1 class="font-extrabold text-lg min-[540px]:text-sm md:text-lg lg:text-3xl">PESONA TARI SEMARAK PANDHALUNGAN,
                         </h1>
                         <h1 class="font-extrabold text-lg min-[540px]:text-sm md:text-lg lg:text-3xl">WARISAN BUDAYA
                             NUSANTARA</h1>
@@ -22,7 +22,7 @@
                 <div class="z-20">
                     <iframe
                         class="rounded-xl md:rounded-2xl lg:rounded-3xl w-full h-[200px] min-[540px]:w-[230px] min-[540px]:h-[132px] md:w-[350px] md:h-[197px] lg:w-[450px] lg:h-[253px]"
-                        src="https://www.youtube.com/embed/3NcKE0LEEA0?si=nVFDcQfXpFmpaOUC" title="YouTube video player"
+                        src="https://www.youtube.com/embed/sTEG0gFR8Jw?si=kEj-1tPB72XY4Ub9" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -34,41 +34,20 @@
     <div class="pb-28 px-4">
         <div class="content mx-auto">
             <div class="">
-                <p class="text-lg sm:text-xl text-justify">Tari Lahbako merupakan tarian yang terinspirasi dari keseharian
-                    petani <span class="font-semibold">tembakau</span> di <span class="font-semibold">Jember</span>, yang
-                    menggambarkan <span class="font-semibold">proses penanaman tembakau</span>, pemetikan, bahkan sampai
-                    proses pengemasan tembakau itu sendiri. Dimainkan oleh 4-8 orang, Tari Lahbako dibuat untuk <span
-                        class="font-semibold">mengapresiasi</span> peran para <span class="font-semibold">perempuan</span>
-                    di Jember yang mengelola tembakau, dikarenakan kebanyakan pengelola tembakau pada saat itu adalah
-                    perempuan.
+                <p class="text-lg sm:text-xl text-justify"><span class="font-semibold">Tari Semarak Pandhalungan</span> adalah tarian kreasi <span class="font-semibold">baru</span> yang populer di Jember. Tarian ini
+                    merefleksikan semangat kebhinekaan dan kekayaan budaya masyarakat Jember yang terdiri dari
+                    berbagai <span class="font-semibold">etnis</span>, seperti Jawa, Madura, dan Osing
                 </p>
             </div>
 
             <div class="mt-14">
                 <p class="text-lg sm:text-xl text-justify">
                     <span class="text-xl font-bold underline">Sejarah singkat</span>
-                    Tari Lahbako terbentuk dari keinginan Bupati Jember pada tahun <span class="font-semibold">1985</span>
-                    yaitu Bapak <span class="font-semibold">Suryadi Setiawan</span>. Pada saat itu, Bapak Suryadi ingin
-                    memiliki tarian yang dapat dijadikan ikon <span class="font-semibold">identitas budaya Jember</span>.
-                    Beliau terinsipirasi dari <span class="font-semibold">keseharian masyarakat</span> Jember yang sebagian
-                    besar merupakan petani tembakau. Dari hal tersebut, tercetus lah sebuah tarian bernama Tari Lahbako yang
-                    merupakan gabungan dari 2 kata, yakni “<span class="font-bold">Lah</span>” yang artinya “olah/mengolah”
-                    dan “<span class="font-bold">Bako</span>” yang artinya “tembakau”. Sehingga dapat diartikan Tari Lahbako
-                    adalah tarian yang <span class="font-semibold">menceritakan pengolahan tembakau</span>.
+                    Tari Semarak Pandhalungan muncul karena adanya kesadaran akan pentingnya melestarikan budaya
+                    lokal. Banyak seniman dan kelompok masyarakat dari Jember berupaya menggali dan mengembangkan
+                    potensi budaya di <span class="font-semibold">Bumi Pandhalungan</span> ini. Dari sini lah, tercipta sebuah karya seni tari yang
+                    merupakan cerminan dari hasil <span class="font-semibold">akulturasi</span> antara budaya Jawa, Madura, dan Osing. 
                 </p>
-                <p class="text-lg sm:text-xl mt-10 text-justify">
-                    Dahulu, Tari Lahbako <span class="font-semibold">biasanya dipentaskan di ladang</span> menjelang musim
-                    panen tembakau. Namun, saat ini para petani tidak lagi menggelar tarian ini pada waktu panen, sehingga
-                    Tarian Lahbako telah menjadi <span class="font-semibold">warisan tradisi</span> dari nenek moyang kita.
-                    Karena statusnya sebagai warisan budaya kota Jember, penting bagi kita untuk melestarikannya agar
-                    generasi muda tetap mengenal tarian ini. Oleh karena itu, Tarian Lahbako <span
-                        class="font-semibold">sering dipentaskan dalam festival budaya</span> di Jember, seperti saat
-                    penyambutan tamu besar atau acara kebudayaan lainnya.
-                </p>
-            </div>
-
-            <div class="mt-14">
-
             </div>
         </div>
     </div>
@@ -81,21 +60,15 @@
 
 
                     <div class="flex flex-col md:flex-row items-center gap-5 py-5">
-                        <img class="" src="{{ asset('assets/img/kostum-lahbako.png') }}" alt="">
+                        <img class="md:mr-24 w-[222px] h-[292px] object-cover" src="{{ asset('assets/img/kostum/semarak.png') }}" alt="">
 
-                        <p class="text-base sm:text-xl">Busana yang dipakai dalam pertunjukan Tari Lahbako menggambarkan
-                            <span class="font-semibold">para perani tembakau</span>. Di bagian kepala, penari memakai <span
-                                class="font-semibold">sanggul cemol</span>, yaitu jenis sanggul yang memanjang ke atas.
-                            Selain
-                            itu, ada berbagai aksesoris seperti <span class="font-semibold">bendera kecil</span> dengan
-                            warna
-                            berbeda yang masing-masing <span class="font-semibold">melambangkan tugas petani</span>. Ada
-                            juga
-                            anting-anting dan aksesoris lain berbentuk daun tembakau. Untuk pakaiannya, biasanya penari
-                            <span class="font-semibold">mengenakan kebaya</span>, dan bagian bawahnya <span
-                                class="font-semibold">memakai kain panjang</span> atau sarong <span
-                                class="font-semibold">serta
-                                celemek</span> atau tatakan yang biasa digunakan para petani saat bekerja.</p>
+                        <p class="text-base sm:text-xl">Kostum Tari Semarak Pandhalungan sangat beragam, mencerminkan kekayaan budaya Jember. Sebagai
+                            tarian kreasi baru yang terus berkembang, kostumnya tidak memiliki standar baku. Umumnya, kostum
+                            ini menggabungkan unsur-unsur budaya Jawa, Madura, dan Osing, seperti batik, kebaya, sarong, dan
+                            motif khas Osing yang terinspirasi dari alam. Ciri-ciri kostum ini meliputi warna cerah yang mencolok,
+                            motif alami, serta penggunaan aksesoris seperti kalung dan gelang untuk mempercantik penampilan
+                            penari. Terkadang, kostum juga dipadukan dengan elemen modern, seperti bahan sintetis dan potongan
+                            yang lebih simpel.</p>
                     </div>
                 </div>
 
@@ -104,15 +77,14 @@
                 <div class="relative mb-28 pr-10 rounded-s-[100px] bg-slate-300 pl-10">
 
                     <div class="flex flex-col-reverse md:flex-row items-center gap-5 py-5">
-                        <p class="text-base sm:text-xl">Gerakan dalam Tari Lahbako mengacu pada gerakan yang <span
-                                class="font-semibold">lembut tapi lugas</span>, yang selaras dengan musik pengiringnya,
-                            yakni
-                            <span class="font-semibold">musik patrol</span>. Musik patrol merupakan musik asal Jember yang
-                            terdapat alat musik seperti <span class="font-semibold">kentongan, suling, dan gendang</span>.
-                            Biasanya musik ini dimainkan oleh para pria berjumlah 7 orang.
+                        <p class="text-base sm:text-xl">
+                            Musik yang digunakan untuk mengiri Tari Semarak Pandhalungan ini adalah musik patrol, seperti hal
+                            nya Tari Lahbako. Terdapat beberapa alat musik seperti seruling, kendang, saron/demung, dan
+                            kentongan yang dimainkan oleh 4-8 orang laki-laki.
+
                         </p>
 
-                        <img class="" src="{{ asset('assets/img/music-lahbako.png') }}" alt="">
+                        <img class="w-[222px] object-cover" src="{{ asset('assets/img/musik/semarak.png') }}" alt="Alat musik pengiring tari semarak pandhalungan">
                     </div>
 
                 </div>
@@ -122,21 +94,13 @@
 
 
                     <div class="flex flex-col md:flex-row gap-5 items-center py-5">
-                        <img class="w-[250px]" src="{{ asset('assets/img/karakter-lahbako.png') }}" alt="">
+                        <img class="w-[222px] object-cover" src="{{ asset('assets/img/karakteristik/semarak.png') }}" alt="Karakteristik tari semarak pandhalungan">
 
-                        <p class="text-base sm:text-xl">Busana yang dipakai dalam pertunjukan Tari Lahbako menggambarkan
-                            <span class="font-semibold">para perani tembakau</span>. Di bagian kepala, penari memakai <span
-                                class="font-semibold">sanggul cemol</span>, yaitu jenis sanggul yang memanjang ke atas.
-                            Selain
-                            itu, ada berbagai aksesoris seperti <span class="font-semibold">bendera kecil</span> dengan
-                            warna
-                            berbeda yang masing-masing <span class="font-semibold">melambangkan tugas petani</span>. Ada
-                            juga
-                            anting-anting dan aksesoris lain berbentuk daun tembakau. Untuk pakaiannya, biasanya penari
-                            <span class="font-semibold">mengenakan kebaya</span>, dan bagian bawahnya <span
-                                class="font-semibold">memakai kain panjang</span> atau sarong <span
-                                class="font-semibold">serta
-                                celemek</span> atau tatakan yang biasa digunakan para petani saat bekerja.</p>
+                        <p class="text-base sm:text-xl">
+                            Tarian ini memadukan banyak elemen dari budaya Jawa, Madura, dan Osing. Semua gerakan nya
+                            menggambarkan kehidupan sehari-hari masyarakat Jember, seperti kegiatan pertanian, perikanan, atau
+                            upacara adat.
+                        </p>
                     </div>
 
                 </div>
@@ -154,11 +118,10 @@
                         class="absolute flex items-center justify-center bg-gray-400 w-8 h-8 rounded-full -start-4 ring-4 ring-white">
                     </span>
                     <h3 class="font-extrabold text-4xl leading-tight"><span class="text-white ml-2">Fungsi</span> Tari</h3>
-                    <p class="text-lg ml-2">Tujuan awal diciptakannya tari tersebut, misalnya untuk upacara adat, hiburan,
-                        atau penyampaian pesan.
-                        Tari Lahbako adalah sebagai bentuk apresiasi dan penghormatan kepada para petani tembakau di Jember.
-                        Tarian ini diciptakan untuk menggambarkan secara indah dan simbolik proses pengolahan tembakau,
-                        mulai dari penanaman hingga pengemasan.
+                    <p class="text-lg ml-2">
+                        Tujuan diciptakannya tari ini adalah sebagai sarana untuk memupuk rasa persatuan dan kesatuan antar
+                        budaya di Kabupaten Jember. Diharapkan dengan adanya tarian ini, masyarakat dapat terus menjaga
+                        keharmonisan dalam hidup berdampingan walaupun berasal dari suku yang berbeda.
                     </p>
                 </li>
                 <li class="mb-10 ms-6">
@@ -170,19 +133,19 @@
 
                     <div class="grid md:grid-cols-3 gap-5 mt-4 ml-2">
                         <div class="p-4 bg-green-700 text-white rounded-2xl">
-                            <h4 class="font-semibold text-xl mb-2">Pengembangan Kurikulum Sekolah</h4>
-                            <p>Integrasikan Tari Lahbako ke dalam kurikulum seni budaya di sekolah-sekolah di Jember. Ajak
-                                siswa untuk mempelajari sejarah, gerakan, dan makna di balik tarian ini. </p>
+                            <h4 class="font-semibold text-xl mb-2">Pengembangan Wisata Budaya</h4>
+                            <p>Ciptakan paket wisata yang menggabungkan kunjungan ke situs-situs
+                                bersejarah di wilayah Pandhalungan dengan pertunjukan Tari Semarak Pandhalungan.</p>
                         </div>
                         <div class="p-4 bg-green-700 text-white rounded-2xl">
-                            <h4 class="font-semibold text-xl mb-2">Festival Budaya Tahunan</h4>
-                            <p>Adakan festival budaya tahunan yang khusus menampilkan Tari Lahbako. Undang kelompok tari
-                                dari berbagai daerah untuk berpartisipasi dan berkompetisi.</p>
+                            <h4 class="font-semibold text-xl mb-2">Pembentukan Sanggar Tari Komunitas</h4>
+                            <p>Bentuk sanggar tari komunitas di berbagai desa di wilayah
+                                Pandhalungan. Hal ini akan memudahkan masyarakat untuk belajar dan melestarikan tarian ini.</p>
                         </div>
                         <div class="p-4 bg-green-700 text-white rounded-2xl">
-                            <h4 class="font-semibold text-xl mb-2">Kolaborasi dengan Seniman Muda</h4>
-                            <p>Ajak seniman muda untuk menciptakan karya seni kontemporer yang terinspirasi dari Tari
-                                Lahbako. Hal ini dapat menarik minat generasi muda terhadap tarian tradisional.</p>
+                            <h4 class="font-semibold text-xl mb-2">Dokumentasi Video Interaktif</h4>
+                            <p>Buat video interaktif yang menjelaskan sejarah, makna, dan gerakan
+                                Tari Semarak Pandhalungan. Video ini dapat diakses melalui platform digital seperti YouTube.</p>
                         </div>
                     </div>
                 </li>

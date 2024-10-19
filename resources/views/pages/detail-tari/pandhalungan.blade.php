@@ -78,7 +78,7 @@
 
                     <div class="flex flex-col-reverse md:flex-row items-center gap-5 py-5">
                         <p class="text-base sm:text-xl">
-                            Musik yang digunakan untuk mengiri Tari Semarak Pandhalungan ini adalah musik patrol, seperti hal
+                            Musik yang digunakan untuk mengiringi Tari Semarak Pandhalungan ini adalah musik patrol, seperti hal
                             nya Tari Lahbako. Terdapat beberapa alat musik seperti seruling, kendang, saron/demung, dan
                             kentongan yang dimainkan oleh 4-8 orang laki-laki.
 

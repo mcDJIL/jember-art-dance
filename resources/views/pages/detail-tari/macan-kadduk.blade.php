@@ -92,7 +92,7 @@ bulu harimau.
 
                     <div class="flex flex-col-reverse md:flex-row items-center gap-5 py-5">
                         <p class="text-base sm:text-xl">
-                            Keseluruhan instrumen yang digunakan dalam pertunjukan Can Macanan Kaddu’ meliputi, saron,
+                            Keseluruhan instrumen yang digunakan dalam pertunjukan Can Macanan Kadduk meliputi, saron,
 panthus, selompret, kethuk, gong, kempul, kluncing, kendang banyuwangi, kendang bali, simbal, dan
 tambourin yang disajikan berbeda-beda menyesuaikan tema tarian yang disuguhkan.
                         </p>

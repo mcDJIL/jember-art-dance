@@ -107,7 +107,7 @@
                                     sini, kamu akan menemukan
                                     berbagai informasi menarik, mulai sejarah dan makna di balik setiap gerakan, hingga
                                     event dan festival tari yang
-                                    siap membuat kamu terpukau . Jelajahi website kami dan mari bersama-sama
+                                    siap membuat kamu terpukau. Jelajahi website kami dan mari bersama-sama
                                     melestarikan warisan budaya
                                     Jember!</p>
                             </div>

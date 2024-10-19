@@ -107,7 +107,7 @@
                                     sini, kamu akan menemukan
                                     berbagai informasi menarik, mulai sejarah dan makna di balik setiap gerakan, hingga
                                     event dan festival tari yang
-                                    siap membuat kamu terpukau . Jelajahi website kami dan mari bersama-sama
+                                    siap membuat kamu terpukau. Jelajahi website kami dan mari bersama-sama
                                     melestarikan warisan budaya
                                     Jember!</p>
                             </div>
@@ -123,7 +123,7 @@
                                 <div
                                     class="text-black text-[25px] min-[480px]:text-[40px] md:text-[30px] xl:text-[40px] flex gap-3 min-[480px]:gap-6">
                                     <a onclick="shareToFb()" class="cursor-pointer">
-                                        <i class="fa-brands fa-facebook"></i>
+                                        <i class="fa-brands fa-square-facebook"></i>
                                     </a>
 
                                     <a href="https://www.instagram.com/jemberartdance" target="_blank">
@@ -180,8 +180,7 @@
                                         class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">TARI
                                         MOJOSARI</a>
                                     <a href="/tari-macan-kadduk"
-                                        class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">TARI
-                                        MACAN KADDUK</a>
+                                        class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">CAN MACAN KADDUK</a>
                                 </div>
                             </div>
                         </div>

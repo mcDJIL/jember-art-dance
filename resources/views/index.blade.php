@@ -16,7 +16,7 @@
                 <div class="des">
                     Jember Art Dance adalah portal lengkap tentang seni tari tradisional Jember. Di sini, kamu akan menemukan 
                     berbagai informasi menarik, mulai sejarah dan karakteristik khusus setiap tarinya, hingga event dan festival tari yang 
-                    siap membuat kamu terpukau . Jelajahi website kami dan mari bersama-sama melestarikan warisan budaya 
+                    siap membuat kamu terpukau. Jelajahi website kami dan mari bersama-sama melestarikan warisan budaya 
                     Jember!</div>
                 <div class="buttons">
                     <button class="jelajahi" data-target="tentang">JELAJAHI</button>
@@ -199,7 +199,7 @@ Can Macanan Kaduk, yang berarti "harimau buatan dari karung," adalah seni pertun
                 <div class="md:max-w-sm lg:max-w-lg xl:max-w-3xl">
                     <p
                         class="font-hind text-justify max-[400px]:text-sm max-[768px]:text-xl max-[820px]:text-xs min-[820px]:text-sm lg:text-xl">
-                        Jember, dikenal sebagai "Bumi Pandhalungan", adalah sebuah kota yang terletak di ujung timur Pulau Jawa, tepat berada di lereng Pegunungan Hiang dan Gunung Argopuro. Memiliki letak geografis yang sangat strategis, menjadikan Jember mempunyai banyak lokasi wisata alam yang dapat kamu kunjungi. Tak hanya itu, Jember juga memiliki komoditi kekayaan alam yang cukup beragam. Dengan luas daratan 2.431 km2 menjadikan Kabupaten Jember memiliki banyak potensi dalam bidang pertanian seperti padi, jagung, kopi, tembakau, dan coklat.   
+                        Jember, dikenal sebagai "Bumi Pandhalungan", adalah sebuah kota yang terletak di ujung timur Pulau Jawa, tepat berada di lereng Pegunungan Hiang dan Gunung Argopuro. Memiliki letak geografis yang sangat strategis, menjadikan Jember mempunyai banyak lokasi wisata alam yang dapat kamu kunjungi. Tak hanya itu, Jember juga memiliki komoditi kekayaan alam yang cukup beragam. Dengan luas daratan 2.431 km<sup>2</sup> menjadikan Kabupaten Jember memiliki banyak potensi dalam bidang pertanian seperti padi, jagung, kopi, tembakau, dan coklat.   
                     </p>
                     <p
                         class="mt-4 font-hind text-justify max-[400px]:text-sm max-[768px]:text-xl max-[820px]:text-xs min-[820px]:text-sm lg:text-xl">
@@ -436,13 +436,21 @@ Can Macanan Kaduk, yang berarti "harimau buatan dari karung," adalah seni pertun
 
         <ol class="mt-10 grid grid-cols-1 sm:grid-rows-1 md:grid-cols-3 gap-6 ">
             <li id="lahbako" class="relative content-tari shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] bg-white px-4 py-4 rounded-xl sm:mb-0 lg:max-w-[400px] xl:max-w-[450px]">
-                <img class="absolute -right-8 -bottom-8 w-[70px] object-cover" src="{{ asset('assets/img/kostum/lahbako.png') }}" alt="">
+            <img class="absolute -right-8 -top-8 w-[100px] object-cover" src="{{ asset('assets/img/kostum/canmacanan.png') }}" alt=""> 
             
-                <div class="mt-3">
+                <!-- <div class="mt-3">
                     <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Tari Lahbako</h3>
                     <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Diciptakan pada tahun 1970-an</time>
                     <p class="text-base font-normal text-gray-500 dark:text-gray-400 lg:max-w-72 xl:max-w-80">Koreografi tarian ini diciptakan oleh Bagong Kusdiarjo</p>
+                </div> -->
+
+                <div class="mt-3">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Can Macan Kadduk</h3>
+                    <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Kesenian ini telah ditampilkan sejak tahun 1974</time>
+                    <p class="text-base font-normal text-gray-500 dark:text-gray-400 lg:max-w-72 xl:max-w-80">Kesenian ini menampilkan pertunjukan sekelompok orang yang mengenakan kostum harimau raksasa yang terbuat
+                    dari karung goni.</p>
                 </div>
+                
             </li>
             <li id="tari-3" class="relative content-tari shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] bg-white px-4 py-4 rounded-xl sm:mb-0 lg:max-w-[400px] xl:max-w-[450px]">
                 <img class="absolute -right-8 -bottom-8 w-[80px] object-cover" src="{{ asset('assets/img/kostum/semarak.png') }}" alt="">
@@ -469,10 +477,10 @@ Can Macanan Kaduk, yang berarti "harimau buatan dari karung," adalah seni pertun
         <div id="timeline" class="md:w-full md:py-14 relative">
             {{-- garis timeline --}}
             <div class="md:w-full md:h-1 md:bg-black mx-auto md:relative md:z-0">
-                <span class="md:absolute md:bottom-1/2 md:transform md:-translate-y-[70%] md:left-[13.9%] font-semibold">1970+-</span>
+                <span class="md:absolute md:bottom-1/2 md:transform md:-translate-y-[70%] md:left-[13.9%] font-semibold">1974</span>
                 <div id="timeline-lahbako" class="timeline-tari shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] md:px-4 md:py-4 md:bg-white md:absolute md:rounded-full md:top-1/2 md:transform md:-translate-y-1/2 md:left-[14%]"></div>
 
-                <span class="md:absolute md:top-1/2 md:transform md:translate-y-[70%] md:left-[31.9%] font-semibold">1974</span>
+                <span class="md:absolute md:top-1/2 md:transform md:translate-y-[70%] md:left-[31.9%] font-semibold">1984</span>
                 <div id="timeline-2" class="timeline-tari md:px-4 md:py-4 md:bg-white md:absolute md:rounded-full md:top-1/2 md:transform md:-translate-y-1/2 md:left-[32%]"></div>
 
                 <span class="md:absolute md:bottom-1/2 md:transform md:-translate-y-[70%] md:left-[48.9%] font-semibold">2016</span>
@@ -487,13 +495,13 @@ Can Macanan Kaduk, yang berarti "harimau buatan dari karung," adalah seni pertun
         </div>
 
         <ol class="w-full mt-6 md:mt-0 md:items-center flex flex-col md:flex-row md:justify-center md:gap-x-[35px] gap-6">
-            <li id="tari-2" class="content-tari shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] bg-white px-4 py-4 rounded-xl relative sm:mb-0 min-[900px]:w-[280px] lg:w-[315px] xl:w-[410px]">
-                <img class="absolute -right-8 -top-8 w-[100px] object-cover" src="{{ asset('assets/img/kostum/canmacanan.png') }}" alt="">    
-
+            <li id="tari-4" class="relative content-tari shadow-[0_4px_5px_1px_rgb(0,0,0,0.3)] bg-white px-4 py-4 rounded-xl sm:mb-0 min-[900px]:w-[280px] lg:w-[315px] xl:w-[410px]">
+                <img class="absolute -right-16 -bottom-8 w-[100px] object-cover h-[211px]" src="{{ asset('assets/img/kostum/lahbako.png') }}" alt="">
+            
                 <div class="mt-3">
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Tari Can Macan Kadduk</h3>
-                    <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Tari ini telah ditampilkan sejak tahun 1974</time>
-                    <p class="md:max-w-72 text-base font-normal text-gray-500 dark:text-gray-400 lg:max-w-72 xl:max-w-80">Tak ada yang bisa memastikan kapan Can Macanan Kaduk hadir pertama kali di bumi Jember
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Tari Lahbako</h3>
+                    <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Diciptakan pada tahun 1984</time>
+                    <p class="md:max-w-72 text-base font-normal text-gray-500 dark:text-gray-400 lg:max-w-72 xl:max-w-80">Tari Lahbako merupakan tarian yang terinspirasi dari keseharian petani tembakau di Jember.
                     </p>
                 </div>
             </li>
@@ -689,14 +697,14 @@ Can Macanan Kaduk, yang berarti "harimau buatan dari karung," adalah seni pertun
                             </div>
                 
                             <div class="border-4 md:border-8 border-green-700 rounded-full absolute -top-[20%] min-[540px]:-top-[23%] md:-top-[23%] left-1/2 -translate-x-1/2 max-[540px]:w-[100px] max-[540px]:h-[100px] min-[540px]:w-[130px] min-[540px]:h-[130px] md:w-[170px] md:h-[170px]">
-                                <img class="rounded-full w-full h-full object-top object-cover" src="{{ asset('assets/img/titha.jpg') }}" alt="">
+                                <img class="rounded-full w-full h-full object-top object-cover" src="{{ asset('assets/img/rachel.jpeg') }}" alt="">
                             </div>
                 
                             <p class="pt-20 pb-6 min-[400px]:pb-8 min-[540px]:pt-24 min-[540px]:pb-8 md:pt-32 md:pb-16 text-center font-hind text-[8px] min-[400px]:text-xs min-[540px]:text-sm md:text-lg max-w-[230px] min-[400px]:max-w-[300px] min-[540px]:max-w-sm md:max-w-lg mx-auto">Aku merasa bahwa perbedaan antara tari tradisional Jember dan tari tradisional dari daerah lain terletak pada iringan musik dan pakaian yang digunakan, yang mencerminkan identitas daerah tersebut. Tari Jember juga memiliki filosofi dan makna khas yang menggambarkan nilai-nilai budaya setempat.
                             </p>
                 
                             <div class="pb-5 pl-6 md:pb-8 md:pl-10">
-                                <h3 class="text-green-700 font-bold text-xs min-[540px]:text-sm md:text-xl">RACHEL</h3>
+                                <h3 class="text-green-700 font-bold text-xs min-[540px]:text-sm md:text-xl">Rachel Edhi Shashanti</h3>
                                 <p class="text-[10px] min-[540px]:text-xs md:text-base">Penari, Siswi SMKN 3 Jember</p>
                             </div>
                 
@@ -715,10 +723,10 @@ Can Macanan Kaduk, yang berarti "harimau buatan dari karung," adalah seni pertun
                                 <img class="rounded-full w-full h-full object-top object-cover" src="{{ asset('assets/img/nada.jpeg') }}" alt="">
                             </div>
                 
-                            <p class="pt-20 pb-6 min-[400px]:pb-8 min-[540px]:pt-24 min-[540px]:pb-8 md:pt-32 md:pb-16 text-center font-hind text-[8px] min-[400px]:text-xs min-[540px]:text-sm md:text-lg max-w-[230px] min-[400px]:max-w-[300px] min-[540px]:max-w-sm md:max-w-lg mx-auto">Sebagai anak tari saya menyadari bahwa tiap daerah memiliki keunikan tariannya sendiri seperti hal nya kota saya, yaitu kota Jember. Tarian khas yang sangat melekat di kabupaten Jember adalah Tari Lahbako. Tarian ini menceritakan tentang SDA di Jember yaitu kota penghasil tembakau terbaik di Indonesia</p>
+                            <p class="pt-20 pb-6 min-[400px]:pb-8 min-[540px]:pt-24 min-[540px]:pb-8 md:pt-32 md:pb-16 text-center font-hind text-[8px] min-[400px]:text-xs min-[540px]:text-sm md:text-lg max-w-[230px] min-[400px]:max-w-[300px] min-[540px]:max-w-sm md:max-w-lg mx-auto">Sebagai anak tari saya menyadari bahwa tiap daerah memiliki keunikan tariannya sendiri seperti hal nya kota saya, yaitu kota Jember. Tarian khas yang sangat melekat di kabupaten Jember adalah Tari Lahbako. Tarian ini menceritakan tentang SDA di Jember yaitu kota penghasil tembakau terbaik di Indonesia.</p>
                 
                             <div class="pb-5 pl-6 md:pb-8 md:pl-10">
-                                <h3 class="text-green-700 font-bold text-xs min-[540px]:text-sm md:text-xl">NADA</h3>
+                                <h3 class="text-green-700 font-bold text-xs min-[540px]:text-sm md:text-xl">Nada Nuri Nugrahayau</h3>
                                 <p class="text-[10px] min-[540px]:text-xs md:text-base">Penari, Siswi SMAN 3 Jember</p>
                             </div>
                 
@@ -737,10 +745,10 @@ Can Macanan Kaduk, yang berarti "harimau buatan dari karung," adalah seni pertun
                                 <img class="rounded-full w-full h-full object-top object-cover" src="{{ asset('assets/img/diah.jpeg') }}" alt="">
                             </div>
                 
-                            <p class="pt-20 pb-6 min-[400px]:pb-8 min-[540px]:pt-24 min-[540px]:pb-8 md:pt-32 md:pb-16 text-center font-hind text-[8px] min-[400px]:text-xs min-[540px]:text-sm md:text-lg max-w-[230px] min-[400px]:max-w-[300px] min-[540px]:max-w-sm md:max-w-lg mx-auto">Yang membedakannya dari tarian daerah lain adalah kombinasi antara kearifan lokal yang kuat dengan unsur modernitas, seperti yang tercermin dalam Jember Fashion Carnival. Ini membuat tarian dari Jember tidak hanya sekadar mempertahankan tradisi, tetapi juga mampu berkembang tanpa kehilangan identitas.</p>
+                            <p class="pt-20 pb-6 min-[400px]:pb-8 min-[540px]:pt-24 min-[540px]:pb-8 md:pt-32 md:pb-16 text-center font-hind text-[8px] min-[400px]:text-xs min-[540px]:text-sm md:text-lg max-w-[230px] min-[400px]:max-w-[300px] min-[540px]:max-w-sm md:max-w-lg mx-auto">Yang membedakannya dari tarian khas Jember dengan tarian dari daerah lain adalah kombinasi antara kearifan lokal yang kuat dengan unsur modernitas, seperti yang tercermin dalam Jember Fashion Carnival. Ini membuat tarian dari Jember tidak hanya sekadar mempertahankan tradisi, tetapi juga mampu berkembang tanpa kehilangan identitas.</p>
                 
                             <div class="pb-5 pl-6 md:pb-8 md:pl-10">
-                                <h3 class="text-green-700 font-bold text-xs min-[540px]:text-sm md:text-xl">GUSTI DIAH</h3>
+                                <h3 class="text-green-700 font-bold text-xs min-[540px]:text-sm md:text-xl">Gusti Diah Sushita Prameswari</h3>
                                 <p class="text-[10px] min-[540px]:text-xs md:text-base">Penari, Siswi SMAN 4 Jember</p>
                             </div>
                 

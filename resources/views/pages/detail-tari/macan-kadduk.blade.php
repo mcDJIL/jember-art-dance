@@ -12,7 +12,7 @@
 
                 <div class="max-w-3xl z-20">
                     <div class="text-white">
-                        <h1 class="font-extrabold text-lg min-[540px]:text-sm md:text-lg lg:text-3xl">PESONA TARI CAN MACANAN KADDUK,
+                        <h1 class="font-extrabold text-lg min-[540px]:text-sm md:text-lg lg:text-3xl">PESONA CAN MACANAN KADDUK,
                         </h1>
                         <h1 class="font-extrabold text-lg min-[540px]:text-sm md:text-lg lg:text-3xl">WARISAN BUDAYA
                             NUSANTARA</h1>

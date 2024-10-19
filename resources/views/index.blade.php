@@ -87,7 +87,7 @@ Tari Lahbako dari Jember terinspirasi dari keseharian petani tembakau, menggamba
             <img src="{{ asset('assets/img/cmk6.jpg') }}" alt="">
             <div class="carousel-content">
                 <div class="author">Jember Art Dance</div>
-                <div class="title">Tari Can Macanan Kadduk</div>
+                <div class="title">Can Macanan Kadduk</div>
                 <div class="topic">Seni & Budaya</div>
                 <div class="des">
 
@@ -445,7 +445,7 @@ Can Macanan Kaduk, yang berarti "harimau buatan dari karung," adalah seni pertun
                 </div> -->
 
                 <div class="mt-3">
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Can Macan Kadduk</h3>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Can Macanan Kadduk</h3>
                     <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Kesenian ini telah ditampilkan sejak tahun 1974</time>
                     <p class="text-base font-normal text-gray-500 dark:text-gray-400 lg:max-w-72 xl:max-w-80">Kesenian ini menampilkan pertunjukan sekelompok orang yang mengenakan kostum harimau raksasa yang terbuat
                     dari karung goni.</p>

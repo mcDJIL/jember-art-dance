@@ -180,7 +180,7 @@
                                         class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">TARI
                                         MOJOSARI</a>
                                     <a href="/tari-macan-kadduk"
-                                        class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">CAN MACAN KADDUK</a>
+                                        class="text-black md:text-xs lg:text-sm xl:text-lg font-bold cursor-pointer">CAN MACANAN KADDUK</a>
                                 </div>
                             </div>
                         </div>
